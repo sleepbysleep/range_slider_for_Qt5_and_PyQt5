@@ -3,9 +3,9 @@ Customized Qt slider widget with two handles to be convenient to get the range o
 
 # Screen shots
 range slider opted of the horizontal.
-![Image of Horizontal](https://github.com/sleepbysleep/range_slider_for_Qt5_and_PyQt5/horizontal.png)
+![Image of Horizontal](https://github.com/sleepbysleep/range_slider_for_Qt5_and_PyQt5/blob/master/horizontal.png)
 range slider opted of the vertical.
-![Image of Vertical](https://github.com/sleepbysleep/range_slider_for_Qt5_and_PyQt5/vertical.png)
+![Image of Vertical](https://github.com/sleepbysleep/range_slider_for_Qt5_and_PyQt5/blob/master/vertical.png)
 
 # Usage
 In c++,

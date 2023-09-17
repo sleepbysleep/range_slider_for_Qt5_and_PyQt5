@@ -85,7 +85,9 @@ protected:
             //.color(QPalette.)
         }
 
-        QStyle* style = QApplication::style();
+        // FIXED: use self.style(), not QApplication.style() by MaurizioB
+//        QStyle* style = QApplication::style();
+        QStyle* style = this->style();
         this->initStyleOption(&opt);
         opt.subControls = QStyle::SC_SliderHandle; // | QStyle::SC_SliderGroove;
         if (this->tickPosition() != QSlider::NoTicks) opt.subControls |= QStyle::SC_SliderTickmarks;

@@ -53,7 +53,10 @@ class RangeSlider(QtWidgets.QSlider):
         # based on http://qt.gitorious.org/qt/qt/blobs/master/src/gui/widgets/qslider.cpp
 
         painter = QtGui.QPainter(self)
-        style = QtWidgets.QApplication.style()
+
+        # FIXED: use self.style(), not QApplication.style() by MaurizioB
+        # style = QtWidgets.QApplication.style()
+        style = self.style()
 
         # draw groove
         opt = QtWidgets.QStyleOptionSlider()
